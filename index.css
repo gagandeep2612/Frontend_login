@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.main {
+  min-width: 100%;
+  min-height: 100%;
+  background: linear-gradient(
+    to top left,
+    rgb(197, 126, 126) 0%,
+    rgb(87, 189, 202) 50%,
+    rgb(160, 100, 216) 100%
+  );
+  position: relative;
+}
+.form-box {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 380px;
+  height: 400px;
+  background-color: cornsilk;
+  position: absolute;
+  overflow: hidden;
+  background: linear-gradient(
+    to bottom,
+    rgb(223, 241, 241) 0%,
+    rgb(217, 212, 238) 100%
+  );
+}
+.btn {
+  margin: 20px 100px;
+  width: 220px;
+  border-radius: 30px;
+  position: relative;
+}
+.btn #active {
+  position: absolute;
+  background: linear-gradient(
+    to right,
+    rgb(230, 157, 23) 0%,
+    rgb(209, 41, 63) 100%
+  );
+  width: 110px;
+  border-radius: 30px;
+  height: 100%;
+  transition: 0.5s;
+}
+.btn .toggle-btn {
+  font-weight: 700;
+  position: relative;
+  width: 100px;
+  cursor: pointer;
+  height: 40px;
+  outline: none;
+  border: 0;
+  background: transparent;
+  border-radius: 30px;
+}
+.form1 {
+  top: 100px;
+  left: 25px;
+  width: 320px;
+  position: absolute;
+  transition: 0.5s;
+  overflow: hidden;
+}
+.input-field {
+  padding: 10px 0;
+  width: 100%;
+  margin: 5px 0;
+  border: none;
+  border-bottom: 1px solid black;
+  background: transparent;
+  outline: none;
+}
+.submit-btn {
+  width: 85%;
+  padding: 10px 30px;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+  background: linear-gradient(
+    to right,
+    rgb(230, 157, 23) 0%,
+    rgb(209, 41, 63) 100%
+  );
+  border: none;
+  border-radius: 30px;
+  outline: none;
+}
+.checkbox-btn {
+  margin: 30px 10px 30px 0;
+}
+span {
+  font-size: 12px;
+  bottom: 45px;
+}
+.b {
+  padding-top: 20px;
+  margin-left: 7.5%;
+}
+#login {
+  left: 25px;
+}
+#register {
+  left: 445px;
+}
